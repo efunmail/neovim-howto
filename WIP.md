@@ -41,11 +41,14 @@ VIMRUNTIME=${SCRIPT_DIR}/share/nvim/runtime ${SCRIPT_DIR}/bin/nvim  -u  $@
 - `package.json`:
 
 ```json
+{
+}
 ```
 
 - `.yarnrc.yml`:
 
 ```yaml
+nodeLinker: node-modules
 ```
 
 ### PROJECT - `nvim-init`
