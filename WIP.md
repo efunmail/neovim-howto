@@ -38,14 +38,38 @@ VIMRUNTIME=${SCRIPT_DIR}/share/nvim/runtime ${SCRIPT_DIR}/bin/nvim  -u  $@
 
 ### Node - YARN
 
-- `package.json`
+- `package.json`:
 
 ```json
 ```
 
-- .yarnrc.yml
+- `.yarnrc.yml`:
 
 ```yaml
+```
 
 ### PROJECT - `nvim-init`
 
+- [ ] **`.nvim-init.lua`**
+
+### PROJECT - PYTHON
+
+- `pyrightconfig.json`:
+
+```json
+{
+  "pythonVersion": "3.8"
+}
+```
+
+### PROJECT - NODE
+
+- `tsconfig.json`:
+
+```json
+{
+  "vueCompilerOptions": {
+    "plugins": ["@vue/language-plugin-pug"]
+  }
+}
+```
