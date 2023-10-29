@@ -1,6 +1,6 @@
 ## TODO
 
-- [.] LOCAL
+- [ ] [WIP:] LOCAL
 - [ ] Can put Node-based (LSP) **_language servers_** in a (Alpine? Debian-Slim?) **container**?
 
 ## LOCAL - Init
@@ -30,6 +30,10 @@ bin/nvim  -u ${SCRIPT_DIR}/init.vim  $@
 VIMRUNTIME=${SCRIPT_DIR}/share/nvim/runtime ${SCRIPT_DIR}/b
 in/nvim  -u  $@
 ```
+
+- [TODO:] `vim-plug`
+
+    - [ ] https://github.com/junegunn/vim-plug/tree/master#neovim
 
 ### CLI Tools
  
