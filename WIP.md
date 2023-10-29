@@ -38,17 +38,44 @@ VIMRUNTIME=${SCRIPT_DIR}/share/nvim/runtime ${SCRIPT_DIR}/bin/nvim  -u  $@
 
 ### Node - YARN
 
-- `package.json`:
-
-```json
-{
-}
-```
-
 - `.yarnrc.yml`:
 
 ```yaml
 nodeLinker: node-modules
+```
+
+#### PYTHON 
+
+- `package.json`: (Can be in a **separate** dir)
+
+```json
+{
+  "name": "python_tools",
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "pyright": "^1.1.332",
+  }
+}
+```
+
+#### NODE Project
+
+- `package.json`: (Best to be in **same**/project dir)
+
+```json
+{
+  "name": "my_NODE_Project",
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "@tailwindcss/language-server": "^0.0.13",
+    "@vue/language-plugin-pug": "^1.8.20",
+    "@vue/language-server": "^1.8.20",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2",
+
+    "vue": "^3.3.7"
+  }
+}
 ```
 
 ### PROJECT - `nvim-init`
