@@ -94,7 +94,7 @@ nodeLinker: node-modules
 
 ### PROJECT - NODE
 
-- `tsconfig.json`:
+- **TypeScript**-related config: `tsconfig.json`:
 
 ```json
 {
@@ -103,3 +103,5 @@ nodeLinker: node-modules
   }
 }
 ```
+
+- **TailwindCSS** config: `tailwind.config.js`: (Can be BLANK)
